@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i&display=swap');
+
+*{margin:0px; padding:0px; box-sizing:border-box;}
+body{ 	 margin:0px; padding:0px; font-family: 'Open Sans', sans-serif;}
+a{text-decoration:none; color:inherit; display: inline-block;}
+a:hover{text-decoration:none; color:inherit; }
+:focus{color:inherit; outline: none !important; border: inherit; text-decoration: none;}
+.wrapper{max-width:1170px; margin:0px auto; padding:0px 15px; }
+img{max-width:100%;}
+figure{ margin: 0; padding: 0 }
+
+h1{font-size: 35px; line-height: 40px;}
+h2{font-size: 30px; line-height: 35px;}
+h3{font-size: 27px; line-height: 32px;}
+
+
+.btn_blue{font-weight: 600;}
+.btn_blue:hover{ background: none;   color: #0dcaf0 !important;}
+
+
+.content_area{background-color: #f5f5f5;}
+
+
+
+
+
+.user_box figure{ width: 46px; height: 46px; border-radius: 50%; overflow: hidden;}
+.user_box .user_name{  width: auto; margin: 0; }
+
+
+.container{max-width: 1200px !important;}
+.feature_list .badge{font-size: 22px; line-height: 28px; width: 46px;}
+.shadow_box{box-shadow: 0 0 10px rgba(0,0,0,0.3);}
+
+.blogs .date_box{font-size: 22px; font-weight: 600; line-height: 24px;}
+
+.blogs small{font-size: 14px; line-height: 18px;}
+.blogs .detail_box small{font-size: 11px; line-height: 14px;}
+
+.block_with_progress .blogs .user_box{width: 145px;}
+
+.block_with_progress .blogs .detail_box{width: calc(100% - 150px);}
+.block_with_progress .blogs .detail_box strong{width: 67px;}
+.block_with_progress .blogs .detail_box .progress_box { width: calc(100% - 70px);}
+.block_with_progress .blogs .detail_box .progress_box .progress{height: auto !important; border-radius: 0 !important; }
+.block_with_progress .blogs .detail_box .progress_box .progress-bar{height: 7px;}
+.block_with_progress .blogs .detail_box .progress_box small{width: 112px;}
+.block_with_progress .blogs .detail_box .progress_box .inner_progress .progress{ width: calc(100% - 117px);}
+
+@media screen and (max-width: 1023px) and (min-width: 768px), (max-width: 479px){
+  .block_with_progress .blogs .detail_box,
+  .block_with_progress .blogs .user_box{width: 100%; padding: 5px ;}
+}
